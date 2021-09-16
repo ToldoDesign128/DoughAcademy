@@ -1,0 +1,35 @@
+/*
+Theme Name: Dough Academy
+Theme URI: 
+Author: Federico Toldo • Matteo Bruschetti
+Author URI: 
+Description: Official custom WP theme for Douch Academy
+*/
+
+
+//variables
+@import "css-parts/variables/local-font";
+@import "css-parts/variables/device-screen";  
+@import "css-parts/variables/color";
+@import "css-parts/variables/typography"; 
+@import "css-parts/variables/spacers"; 
+@import "css-parts/variables/helpers"; 
+
+//base
+@import "css-parts/base";
+
+//components
+@import "css-parts/components/nav";
+@import "css-parts/components/footer";
+@import "css-parts/components/btn";
+@import "css-parts/components/posts";
+
+//blocks
+@import "css-parts/blocks/hero";
+@import "css-parts/blocks/testo-img";
+@import "css-parts/blocks/fascia-evidenza";
+@import "css-parts/blocks/social-bar";
+@import "css-parts/blocks/keypoints";
+@import "css-parts/blocks/gallery";
+
+  
