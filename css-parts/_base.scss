@@ -27,12 +27,15 @@ ol, ul {
 /*--------------------------------------------------
 BASE
 --------------------------------------------------*/
-*, *:before, *:after{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0); } //remove highlights on tapping on mobile devices 
+*, *:before, *:after{ -webkit-tap-highlight-color: rgba(0, 0, 0, 0);} //remove highlights on tapping on mobile devices 
+
+
 html{
   font-size: 16px; /*= 1rem*/
   box-sizing: border-box;
   scroll-behavior: smooth; 
   overflow-x: hidden;
+  
 }
 
 body{
@@ -46,4 +49,8 @@ body{
 
 img{
   width: 100%;
+}
+
+main{
+  overflow-x: hidden;
 }

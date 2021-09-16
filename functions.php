@@ -14,8 +14,8 @@
     
     //add CSS
     function XY_styles() {
-        wp_enqueue_style("XY-style", get_template_directory_uri().'/style.min.css');
         wp_enqueue_style("XY-grid", get_template_directory_uri().'/css-parts/bootstrap-grid.min.css');
+        wp_enqueue_style("XY-style", get_template_directory_uri().'/style.min.css');       
     }
     add_action("wp_enqueue_scripts", "XY_styles");
     //add JS
