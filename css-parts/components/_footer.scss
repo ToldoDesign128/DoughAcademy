@@ -1,0 +1,109 @@
+footer{
+    background-color: $color-primary;
+    color: $color-secondary;
+    padding: 6rem 0;
+
+    .first-col{
+        margin-bottom: 4rem;
+        @media #{$large}{
+            margin-bottom: 0;
+        }
+    }
+
+    
+    //logo and legal
+    .logo{
+        display: inline-block;
+
+        svg{
+            width: 120px;
+            height: auto;
+        }
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    .mail{
+        color: $color-secondary;
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+
+    .txt-icon{
+        display: flex;
+        align-items: center;
+        margin-bottom: 2rem;
+        justify-content: center;
+        @media #{$large}{
+            justify-content: left;
+        }
+
+        svg{margin-right: 1rem;}
+    }
+
+
+    //social bar
+    .social-icon{
+        padding-top: 0.5rem;
+        justify-content: center;
+        @media #{$large}{
+            justify-content: left;
+        }
+        svg{
+
+            .svg-social-icon-bg{
+                fill: $color-primary;
+            }
+            .svg-social-icon{
+                fill: $color-secondary;
+            }
+
+            &:hover{
+                .svg-social-icon-bg{
+                    fill: $color-secondary;
+                }
+                .svg-social-icon{
+                    fill: $color-primary;
+                }
+            }
+        }
+    }
+    
+
+
+
+    //sitemap
+    .widget_nav_menu{
+        .menu-item{
+            a{
+                color: $color-secondary; text-decoration: none;
+                display: inline-block;
+                text-transform: uppercase;
+                border-bottom: 4px solid $color-secondary;
+                transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+                &:hover{
+                    border-bottom-color: $color-primary;
+                    padding: 0 5px;
+                }
+            }
+
+            &.current_page_item{
+                a{
+                    color: $color-white;
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+
+    //search bar
+
+
+
+}

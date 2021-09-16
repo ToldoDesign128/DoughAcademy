@@ -1,0 +1,37 @@
+.gallery{
+    img{
+        display: block;
+        border-radius: 0.75rem;
+        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+        &:hover {
+            transform: scale(1.01);
+            opacity: 0.9;
+        }
+    }
+
+    .gallery__full-h{
+        img{
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .gallery__split{
+        img{
+            margin-top: 1.75rem;
+            @media #{$large}{
+                margin-top: 0;
+            }
+        }
+    }
+
+    .gallery__full-w{
+        img{
+            margin-top: 1.75rem;
+        }
+    }
+
+
+}

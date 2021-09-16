@@ -1,0 +1,8 @@
+.keypoints{
+    img{
+        margin-top: 3rem;
+        @media #{$large}{
+        margin-top: 0;
+        }
+    }
+}

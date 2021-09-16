@@ -1,0 +1,120 @@
+nav{
+    width: 100vw; max-width: 100%;
+    height: 100%; max-height: 70px;
+    background-color: transparent;
+    position: fixed; top:0; z-index:999;
+    padding-top: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+
+
+
+
+    .logo{
+        color: $color-white; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 5px;
+        cursor: pointer;
+        height: 52px;
+        transition: opacity 0.2s ease-in-out;
+        z-index:99;
+
+        .navbar-brand{
+            display: inline-block;
+        }
+
+        svg{
+            height: 100%; width: auto;
+            max-height: 52px;
+
+            path{fill: $color-primary}
+        }
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+    .justify-content-end{display: flex;}
+    a{
+        color: $color-primary;
+        text-decoration: none;
+    }
+    .menu{
+        display: flex;
+        gap: clamp(1.5rem, 4vw, 5rem);
+        height: 100%;
+
+        li{
+            display: flex;
+            align-items: center;
+
+            a{
+                font-weight: 600;
+                font-size: 0.85rem; letter-spacing: 2px;
+                text-transform: uppercase;
+                border-bottom: 3px solid transparent;
+                transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+                @media #{$medium}{                
+                    font-size: 1rem;
+                }
+                @media #{$large}{                
+                    font-size: 1.125rem;
+                }
+
+                &:hover{
+                    opacity: 0.8;
+                }
+            }
+        }
+        .current-menu-item{
+            a{
+                border-bottom: solid 3px $color-primary;
+    
+                
+            }
+        }
+    }
+
+    &.scrolled{
+        background-color: $color-primary;
+        .logo{
+            svg{
+                path{fill: $color-secondary}
+            }
+        }
+        a{
+            color: $color-secondary;
+        }
+        .current-menu-item{
+            a{
+                border-bottom: solid 3px $color-secondary;
+    
+                
+            }
+        }
+    }
+}
+
+.fix-fixed{
+    margin-top: 72px;
+}
+
+
+.home{
+    nav{
+        .logo{
+            svg{
+                path{fill: $color-secondary}
+            }
+        }
+        a{
+            color: $color-secondary;
+        }
+        .current-menu-item{
+            a{
+                border-bottom: solid 3px $color-secondary;
+    
+                
+            }
+        }
+    }
+}
