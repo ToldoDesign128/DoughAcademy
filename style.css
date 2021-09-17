@@ -909,14 +909,27 @@ article a {
   fill: #C7B299;
 }
 
-.keypoints img {
+.keypoints h3 {
+  font-size: 1.6rem;
+}
+
+.keypoints .icon {
+  height: 11rem;
+  width: 100%;
   margin-top: 3rem;
+  position: relative;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 992px) {
-  .keypoints img {
+  .keypoints .icon {
     margin-top: 0;
   }
+}
+
+.keypoints .icon svg {
+  width: 100%;
+  position: absolute;
 }
 
 .gallery img {

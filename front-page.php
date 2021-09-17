@@ -71,12 +71,20 @@
             </div>
         </section>
         <section class="keypoints">
+
             <div class="row mb-xxl">
+
                 <div class="col-12 col-md-6 col-lg-3">
-                        <svg width="124" height="118" viewBox="0 0 124 118" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect y="0.924072" width="89.4684" height="89.4684" rx="5" fill="#534741" fill-opacity="0.8"/>
-                        <rect x="39.2407" y="32.3164" width="84.7595" height="84.7595" rx="5" fill="#534741" fill-opacity="0.8"/>
-                        </svg>
+                    <div class="icon">
+
+                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="200" height="200" fill="#C7B299"/>
+                    <rect x="38" y="42" width="89.4684" height="89.4684" rx="5" fill="#534741" fill-opacity="0.8"/>
+                    <rect x="77.2407" y="73.3923" width="84.7595" height="84.7595" rx="5" fill="#534741" fill-opacity="0.8"/>
+                    </svg>
+
+                    </div>
+
                     <h3 class="mb-s mt-s t-center">TRASPARENZA</h3>
                     <p class="t-center">
 
@@ -87,16 +95,17 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="icon">
                         
-                        <svg width="188" height="134" viewBox="0 0 188 134" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 77C1 59.8792 14.8792 46 32 46C49.1208 46 63 59.8792 63 77V107H1V77Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <path d="M82 64C82 46.8792 95.8792 33 113 33C130.121 33 144 46.8792 144 64V94H82V64Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <circle cx="113.5" cy="21.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <path d="M45 101C45 83.8792 58.8792 70 76 70C93.1208 70 107 83.8792 107 101V131H45V101Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <circle cx="75.5" cy="59.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <path d="M125 103C125 85.8792 138.879 72 156 72C173.121 72 187 85.8792 187 103V133H125V103Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <circle cx="32.5" cy="37.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        <circle cx="156.5" cy="58.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
-                        </svg>
+                    <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="200" fill="#C7B299"/>
+                <path d="M75.0638 108.436V132.17H26V108.436C26 94.8876 36.9833 83.9043 50.5319 83.9043C64.0805 83.9043 75.0638 94.8876 75.0638 108.436Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <path d="M139.691 98.0638V121.798H90.6277V98.0638C90.6277 84.5152 101.611 73.5319 115.16 73.5319C128.708 73.5319 139.691 84.5152 139.691 98.0638Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <circle cx="115.559" cy="64.1543" r="16.1543" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <path d="M110.17 127.585V151.319H61.1064V127.585C61.1064 114.037 72.0897 103.053 85.6383 103.053C99.1869 103.053 110.17 114.037 110.17 127.585Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <circle cx="85.2394" cy="94.4734" r="16.1543" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <path d="M174 129.181V152.915H124.936V129.181C124.936 115.632 135.919 104.649 149.468 104.649C163.017 104.649 174 115.632 174 129.181Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <circle cx="50.9309" cy="76.9202" r="16.1543" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                <circle cx="149.867" cy="93.6755" r="16.1543" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                </svg>
 
                     </div>
 
@@ -112,10 +121,12 @@
 
                 <div class="icon">
 
-                        <svg width="124" height="92" viewBox="0 0 124 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect y="3" width="124" height="89" rx="5" fill="#534741"/>
-                        <path d="M62 45L8.30643 11.25L115.694 11.25L62 45Z" fill="#C7B299"/>
-                        </svg>
+                <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="200" fill="#C7B299"/>
+                <rect x="38" y="57" width="124" height="89" rx="5" fill="#534741"/>
+                <path d="M100 99L46.3064 65.25L153.694 65.25L100 99Z" fill="#C7B299"/>
+                </svg>
+
 
                 </div>
                     <h3 class="mb-s mt-s t-center">ISCRIVITI</h3>
@@ -132,12 +143,13 @@
                 <div class="icon">
 
 
-                        <svg width="142" height="91" viewBox="0 0 142 91" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M30.2573 54H106.257V79H30.2573V54Z" fill="#534741"/>
-                        <ellipse cx="68.2573" cy="79" rx="38" ry="12" fill="#534741"/>
-                        <ellipse cx="68.2573" cy="54" rx="38" ry="12" fill="#C7B299"/>
-                        <path d="M30.4807 28.1386L141.589 30.7887L92.2164 59.9301L0.000116218 50.3744L30.4807 28.1386Z" fill="#534741"/>
-                        </svg>
+                <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="200" fill="#C7B299"/>
+                <path d="M59.2572 92.2947H135.257V125.447H59.2572V92.2947Z" fill="#534741"/>
+                <ellipse cx="97.2572" cy="125.447" rx="38" ry="15.9131" fill="#534741"/>
+                <ellipse cx="97.2572" cy="92.2946" rx="38" ry="15.9131" fill="#C7B299"/>
+                <path d="M59.4806 58L170.588 61.5143L121.216 100.158L29 87.4867L59.4806 58Z" fill="#534741"/>
+                </svg>
 
                 </div>
                 

@@ -1,8 +1,25 @@
 .keypoints{
-    img{
+
+    h3{
+        font-size: 1.6rem;
+    }
+
+    .icon{
+        height: 11rem;
+        width: 100%;
         margin-top: 3rem;
-        @media #{$large}{
-        margin-top: 0;
+        position: relative;
+        margin-bottom: 2rem;  
+
+
+
+        @media #{$large}{margin-top: 0;
         }
+    }
+
+    .icon svg{
+        width: 100%;
+        position: absolute;
+
     }
 }
