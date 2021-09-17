@@ -24,13 +24,19 @@ article{
     }
 }
 
+.article__date{
+    font-weight: 600;
+}
+
 .article__title{
     font-size: clamp(1.5rem, 3vw, 2.5rem);
+    
+    text-overflow: ellipsis;
     overflow: hidden;
-    word-break: break-word;
-    display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
 }
 
 .article__excerpt{

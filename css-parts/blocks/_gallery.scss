@@ -2,12 +2,6 @@
     img{
         display: block;
         border-radius: 0.75rem;
-        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
-        &:hover {
-            transform: scale(1.01);
-            opacity: 0.9;
-        }
     }
 
     .gallery__full-h{
@@ -30,6 +24,29 @@
     .gallery__full-w{
         img{
             margin-top: 1.75rem;
+        }
+    }
+
+    picture{
+        display: block;
+        position: relative;
+
+        .capt{
+            font-weight: 600;
+            line-height: 220%;
+            border-radius: 0 0 0.75rem 0.75rem;
+            position: absolute; bottom: 0; left: 0;
+            display: inline-block; width: 100%;
+            text-align: center;
+            background-color: $color-primary;
+            color: $color-secondary;
+        }
+
+        transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+        &:hover {
+            transform: scale(1.01);
+            opacity: 0.9;
         }
     }
 

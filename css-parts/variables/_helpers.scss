@@ -1,5 +1,12 @@
+.v-align-col-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .v-align-col-bottom{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+   

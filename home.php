@@ -49,7 +49,7 @@
                             <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
                             <a href="<?php the_permalink(); ?>"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
                             <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
-                            <a href="<?php the_permalink(); ?>" class="link article__link">Leggi</a>
+                            <a href="<?php the_permalink(); ?>" class="link article__link">Leggi l'articolo</a>
                         </article>
                     </div>
                 <?php endwhile;

@@ -40,9 +40,12 @@ p{
         }
 
     &.overtitle{
-        font-size: 1.25rem;
+        font-size: 1rem;  
         text-transform: uppercase;
         letter-spacing: 2px;
+        @media #{$large} {
+            font-size: 1.25rem; //20px on desktop
+        }
     }
 
     &.subtitle{
