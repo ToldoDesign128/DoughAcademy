@@ -73,7 +73,10 @@
         <section class="keypoints">
             <div class="row mb-xxl">
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/1-1.png" alt="">
+                        <svg width="124" height="118" viewBox="0 0 124 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="0.924072" width="89.4684" height="89.4684" rx="5" fill="#534741" fill-opacity="0.8"/>
+                        <rect x="39.2407" y="32.3164" width="84.7595" height="84.7595" rx="5" fill="#534741" fill-opacity="0.8"/>
+                        </svg>
                     <h3 class="mb-s mt-s t-center">H3 here</h3>
                     <p class="t-center">
                         P here. 
@@ -81,7 +84,16 @@
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/1-1.png" alt="">
+                        <svg width="188" height="134" viewBox="0 0 188 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 77C1 59.8792 14.8792 46 32 46C49.1208 46 63 59.8792 63 77V107H1V77Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <path d="M82 64C82 46.8792 95.8792 33 113 33C130.121 33 144 46.8792 144 64V94H82V64Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <circle cx="113.5" cy="21.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <path d="M45 101C45 83.8792 58.8792 70 76 70C93.1208 70 107 83.8792 107 101V131H45V101Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <circle cx="75.5" cy="59.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <path d="M125 103C125 85.8792 138.879 72 156 72C173.121 72 187 85.8792 187 103V133H125V103Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <circle cx="32.5" cy="37.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        <circle cx="156.5" cy="58.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
+                        </svg>
                     <h3 class="mb-s mt-s t-center">H3 here</h3>
                     <p class="t-center">
                         P here. 
@@ -89,7 +101,10 @@
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/1-1.png" alt="">
+                        <svg width="124" height="92" viewBox="0 0 124 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="3" width="124" height="89" rx="5" fill="#534741"/>
+                        <path d="M62 45L8.30643 11.25L115.694 11.25L62 45Z" fill="#C7B299"/>
+                        </svg>
                     <h3 class="mb-s mt-s t-center">H3 here</h3>
                     <p class="t-center">
                         P here. 
@@ -97,7 +112,12 @@
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/1-1.png" alt="">
+                        <svg width="142" height="91" viewBox="0 0 142 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30.2573 54H106.257V79H30.2573V54Z" fill="#534741"/>
+                        <ellipse cx="68.2573" cy="79" rx="38" ry="12" fill="#534741"/>
+                        <ellipse cx="68.2573" cy="54" rx="38" ry="12" fill="#C7B299"/>
+                        <path d="M30.4807 28.1386L141.589 30.7887L92.2164 59.9301L0.000116218 50.3744L30.4807 28.1386Z" fill="#534741"/>
+                        </svg>
                     <h3 class="mb-s mt-s t-center">H3 here</h3>
                     <p class="t-center">
                         P here. 
