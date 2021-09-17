@@ -77,13 +77,16 @@
                         <rect y="0.924072" width="89.4684" height="89.4684" rx="5" fill="#534741" fill-opacity="0.8"/>
                         <rect x="39.2407" y="32.3164" width="84.7595" height="84.7595" rx="5" fill="#534741" fill-opacity="0.8"/>
                         </svg>
-                    <h3 class="mb-s mt-s t-center">H3 here</h3>
+                    <h3 class="mb-s mt-s t-center">TRASPARENZA</h3>
                     <p class="t-center">
-                        P here. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est.
+
+                        Per qualunque informazione puoi contattarci avrai sempre una risposta.
+
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+                    <div class="icon">
+                        
                         <svg width="188" height="134" viewBox="0 0 188 134" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 77C1 59.8792 14.8792 46 32 46C49.1208 46 63 59.8792 63 77V107H1V77Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
                         <path d="M82 64C82 46.8792 95.8792 33 113 33C130.121 33 144 46.8792 144 64V94H82V64Z" fill="#534741" stroke="#C7B299" stroke-width="2"/>
@@ -94,34 +97,55 @@
                         <circle cx="32.5" cy="37.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
                         <circle cx="156.5" cy="58.5" r="20.5" fill="#534741" stroke="#C7B299" stroke-width="2"/>
                         </svg>
-                    <h3 class="mb-s mt-s t-center">H3 here</h3>
+
+                    </div>
+
+                    <h3 class="mb-s mt-s t-center">SUPPORTO</h3>
                     <p class="t-center">
-                        P here. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est.
+                        <strong>Corsi personalizzati!</strong>    
+                        <br>                  
+
+                        I corsi sono pensati per aiutarti e portarti passo a passo verso il risultato.
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+
+                <div class="icon">
+
                         <svg width="124" height="92" viewBox="0 0 124 92" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect y="3" width="124" height="89" rx="5" fill="#534741"/>
                         <path d="M62 45L8.30643 11.25L115.694 11.25L62 45Z" fill="#C7B299"/>
                         </svg>
-                    <h3 class="mb-s mt-s t-center">H3 here</h3>
+
+                </div>
+                    <h3 class="mb-s mt-s t-center">ISCRIVITI</h3>
                     <p class="t-center">
-                        P here. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est.
+
+                        <strong>Iscriviti alla Newsletter</strong>
+                        <br>
+                        Puoi rimanere aggiornato sui miei corsi, comunicare con me e seguire il PizzaBlog.
+
                     </p> 
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
+
+                <div class="icon">
+
+
                         <svg width="142" height="91" viewBox="0 0 142 91" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M30.2573 54H106.257V79H30.2573V54Z" fill="#534741"/>
                         <ellipse cx="68.2573" cy="79" rx="38" ry="12" fill="#534741"/>
                         <ellipse cx="68.2573" cy="54" rx="38" ry="12" fill="#C7B299"/>
                         <path d="M30.4807 28.1386L141.589 30.7887L92.2164 59.9301L0.000116218 50.3744L30.4807 28.1386Z" fill="#534741"/>
                         </svg>
-                    <h3 class="mb-s mt-s t-center">H3 here</h3>
+
+                </div>
+                
+                    <h3 class="mb-s mt-s t-center">CORSI</h3>
                     <p class="t-center">
-                        P here. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est.
+                        <strong>Supporto Post Corso</strong>
+                        <br>
+                        Al termine del corso entrerai a fare parte della community di Dough Academy.
                     </p> 
                 </div>
             </div>
