@@ -1,0 +1,45 @@
+.recensioni{
+
+    picture{
+        display: flex;
+        justify-content: center;
+
+        img{
+            max-width: 5.5rem;
+        }
+
+        .foto-profilo{
+            position: relative;
+
+            .fb-badget{
+                position: absolute;
+                bottom: 0; right: 0;
+    
+                svg{
+                    fill: $color-white;
+                    width: 2rem; height: auto;
+                    border-radius: 100vw;
+                    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        
+                    circle{
+                        fill: $color-primary;
+                        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                    }
+                }
+        
+                &:hover{
+                    svg{
+                        fill: $color-primary;
+                        circle{fill: $color-secondary;}
+                    }
+                }
+            }
+        }
+    }
+
+    .recensioni__name{
+        display: block;
+        font-size: 1.25rem; font-weight: 600;
+        margin: 0.5rem 0;
+    }
+}
