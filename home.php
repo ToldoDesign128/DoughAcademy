@@ -24,6 +24,7 @@
                             <a href="<?php the_permalink(); ?>" class="link article__link">Leggi</a>
                         </article>
                     </div>
+                    
                 <?php endwhile;
                 wp_reset_postdata();
             ?>

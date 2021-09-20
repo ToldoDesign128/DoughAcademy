@@ -109,4 +109,5 @@
     require dirname(__FILE__).'/function_parts/customize_backend.php';
 
     //CPT
-    require dirname(__FILE__).'/function_parts/cpt/CPT_corsi.php'; ?>
+    require dirname(__FILE__).'/function_parts/cpt/CPT_corsi.php'; 
+?>

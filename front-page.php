@@ -263,7 +263,7 @@
         <!-- Recensioni FB -->
         <section class="recensioni mb-xxl">
             <div class="row">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
@@ -278,7 +278,7 @@
                     <a class="recensioni__name t-center">Nome C.</a>
                     <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
@@ -293,7 +293,7 @@
                     <a class="recensioni__name t-center">Nome C.</a>
                     <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">

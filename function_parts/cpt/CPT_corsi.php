@@ -71,6 +71,7 @@
     add_action( 'init', 'XY_corsi_taxonomies', 0 );
 
 
+
     /*SHORTCODE
     -----------------------------*/
     add_shortcode( 'corsi', 'XY_display_corsi_custom_post_type' );
@@ -106,8 +107,10 @@
         // STAMPA
         $XY_query = new WP_Query( $args );
         if( $XY_query->have_posts() ){ ?>
-            <section id="corsi" class="corsi">
+
+            <div class="container pb-s pt-s" >
                 <div class="row">
+
                     <?php
                     // RICERCA POST NATIVI
                     while( $XY_query->have_posts() ){
@@ -116,22 +119,25 @@
 
                         //get alt text of thumbnail
                         $thumbnail_id  = get_post_thumbnail_id( $post->ID ); $thumbnail_alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
-                    ?>
-                        <div class="col-12 col-md-4 mb-xl">
-                            <img src="<?php echo get_the_post_thumbnail_url();?>" alt="<?php echo $thumbnail_alt ?>">
-                            <h3><?php the_title(); ?></h3>
-                            <p><?php echo get_the_date(); ?></p>
-                            <?php the_excerpt(); ?>
-                            <a href="<?php the_permalink(); ?>" class="link">Apri CPT</a>
-                        </div>
+                        ?>
+                            <div class="col-12 col-lg-6 mb-xxl">
+                                <article>
+                                    <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
+                                    <a href="<?php the_permalink(); ?>"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
+                                    <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink(); ?>" class="link article__link">Leggi</a>
+                                </article>
+                            </div>
                         <?php
-                    };
+                    }
                     wp_reset_postdata();
                     ?>
                 </div> 
             </section>
             <?php
-        };
+        } else {
+            ?> <p>nessun corso</p> <?php
+        }
         return ob_get_clean();
         wp_reset_query();
     }
