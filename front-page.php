@@ -266,7 +266,7 @@
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r1.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
@@ -275,8 +275,11 @@
                             </div>
                         </div>
                     </picture>    
-                    <a class="recensioni__name t-center">Nome C.</a>
-                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a class="recensioni__name t-center">Raffaella Russo</a>
+                    <p class="recensioni__text t-center p-little">
+                        Grande persona, sempre disponibile, gentile e generoso, oltre che un eccellente professionista ! Grande maestro, non finirò mai di ringraziarlo per la passione trasmessa e gli insegnamenti che ci ha dato...!
+                        La sua Pizza Class è stata una grande scoperta. Non vedo l’ora di iscrivermi ai prossimi corsi.
+                    </p>
                 </div>
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
@@ -290,8 +293,10 @@
                             </div>
                         </div>
                     </picture>    
-                    <a class="recensioni__name t-center">Nome C.</a>
-                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a class="recensioni__name t-center">Silvia Passerini</a>
+                    <p class="recensioni__text t-center p-little">
+                        Ho avuto la fortuna di partecipare alla Pizza Class di Mirko ed è un'esperienza che consiglio a chiunque abbia voglia di mettersi alla prova in questo mondo. Mirko è un grande insegnante, sempre disponibile a correggere i nostri errori, spiegarci soprattutto il motivo per permetterci di far meglio la volta successiva. Sono entrata nella pizza class con una grande passione, ne esco con un bagaglio di conoscenze allargate, ma ancor più voglia di mettere le mani in pasta. Professionista ed insegnante eccellente👏🏼👏🏼👏🏼
+                    </p>
                 </div>
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
@@ -305,8 +310,15 @@
                             </div>
                         </div>
                     </picture>    
-                    <a class="recensioni__name t-center">Nome C.</a>
-                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <a class="recensioni__name t-center">Simone Innamorati Valentini</a>
+                    <p class="recensioni__text t-center p-little">
+                        Dopo essermi avventurata nel mondo della panificazione, necessitavo di una guida.. di qualcuno che non solo fosse competente e chiaro nelle spiegazioni, ma che fosse anche empatico, disponibile e paziente (visti i continui dubbi 🤣). Ho trovato tutto questo in Mirko. Consiglio vivamente il suo corso, anzi i suoi corsi.. visto che man mano me li faccio tutti!!! 😍🎉
+                    </p>
+                </div>
+                <div class="col-12 t-center">
+                    <a class="link recensioni__link mt-m" href="https://www.facebook.com/Sciefsavo/reviews" target="_blank">
+                        Leggi altre recensioni
+                    </a>
                 </div>
             </div>
         </section>
