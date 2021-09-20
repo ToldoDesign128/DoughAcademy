@@ -260,6 +260,72 @@
         </section>
 
 
+        <!-- Recensioni FB -->
+        <section class="recensioni mb-xxl">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <picture>
+                        <div class="foto-profilo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <div class="fb-badget">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
+                                    <path class="svg-social-icon" d="M18.4213 14.6507V17.952H16V22H18.4213V34H23.3973V22H26.7307C26.7307 22 27.0453 20.0587 27.1947 17.9413H23.4133V15.1733C23.4588 14.9169 23.5882 14.6828 23.7814 14.508C23.9745 14.3332 24.2203 14.2277 24.48 14.208H27.1893V10H23.5147C18.2987 10 18.4213 14.0427 18.4213 14.6507Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </picture>    
+                    <a class="recensioni__name t-center">Nome C.</a>
+                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <picture>
+                        <div class="foto-profilo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <div class="fb-badget">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
+                                    <path class="svg-social-icon" d="M18.4213 14.6507V17.952H16V22H18.4213V34H23.3973V22H26.7307C26.7307 22 27.0453 20.0587 27.1947 17.9413H23.4133V15.1733C23.4588 14.9169 23.5882 14.6828 23.7814 14.508C23.9745 14.3332 24.2203 14.2277 24.48 14.208H27.1893V10H23.5147C18.2987 10 18.4213 14.0427 18.4213 14.6507Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </picture>    
+                    <a class="recensioni__name t-center">Nome C.</a>
+                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <picture>
+                        <div class="foto-profilo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <div class="fb-badget">
+                                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
+                                    <path class="svg-social-icon" d="M18.4213 14.6507V17.952H16V22H18.4213V34H23.3973V22H26.7307C26.7307 22 27.0453 20.0587 27.1947 17.9413H23.4133V15.1733C23.4588 14.9169 23.5882 14.6828 23.7814 14.508C23.9745 14.3332 24.2203 14.2277 24.48 14.208H27.1893V10H23.5147C18.2987 10 18.4213 14.0427 18.4213 14.6507Z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </picture>    
+                    <a class="recensioni__name t-center">Nome C.</a>
+                    <p class="recensioni__text t-center p-little">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Form Mailchimp-->
+        <section class="fascia-evidenza fascia-evidenza__dark mb-xxl">
+            <div class="row t-center">
+                <div class="col-12">
+                    <h2 class="mb-s">Form Mailchimp</h2>
+                    <p>
+                        P here. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
+                    </p> 
+                </div>
+            </div>
+        </section>
+
+
         <!--Social bar-->
         <section class="social-bar">
             <div class="row t-center mb-xxl">

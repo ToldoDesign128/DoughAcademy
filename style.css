@@ -953,6 +953,53 @@ article a {
   border-bottom-color: #534741;
 }
 
+.recensioni picture {
+  display: flex;
+  justify-content: center;
+}
+
+.recensioni picture img {
+  max-width: 5.5rem;
+}
+
+.recensioni picture .foto-profilo {
+  position: relative;
+}
+
+.recensioni picture .foto-profilo .fb-badget {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.recensioni picture .foto-profilo .fb-badget svg {
+  fill: #FEFEFE;
+  width: 2rem;
+  height: auto;
+  border-radius: 100vw;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.recensioni picture .foto-profilo .fb-badget svg circle {
+  fill: #534741;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.recensioni picture .foto-profilo .fb-badget:hover svg {
+  fill: #534741;
+}
+
+.recensioni picture .foto-profilo .fb-badget:hover svg circle {
+  fill: #C7B299;
+}
+
+.recensioni .recensioni__name {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
 .social-bar .justify-content-center {
   margin-top: 4rem;
 }
