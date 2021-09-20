@@ -8,7 +8,7 @@
                 <div class="col-12">
                     <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
                     <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
-                    <p class="t-white t-center-mobile subtitle">Conoscere l’arte bianca professionalità e competenza</p> 
+                    <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca dell'impasto con professionalità e competenza</p> 
                     <a class="btn btn-center-mobile mt-m" href="#">Inizia a cucinare</a>
                 </div>
             </div>
@@ -163,6 +163,34 @@
             </div>
         </section>
 
+        <!-- Articolo in evidenza -->
+        <article class="articolo-in-home articolo-in-home__dark mb-xxl">
+            <div class="row mb-l">
+                <?php $sticky = get_option( 'sticky_posts' );
+                    rsort( $sticky );
+                    $args = array(
+                        'post__in' => $sticky,
+                        'posts_per_page' => 1
+                    );
+                    $sticky_query = new WP_Query( $args );
+                    while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
+
+                             <div class="col-12 col-md-4 mb-m">
+                                <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
+                            </div>
+                            <div class="col-12 col-md-8 v-align-col-center">
+                                <p class="article__date p-little mb-xs"><?php echo get_the_date(); ?></p>
+                                <a href="<?php the_permalink(); ?>"><h2 class="article__title mb-m"><?php the_title(); ?></h2></a>
+                                <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
+                                <div><a href="<?php the_permalink(); ?>" class="link article__link">Leggi l'articolo</a></div>
+                            </div>
+
+                    <?php endwhile;
+                    wp_reset_postdata();
+                ?>
+            </div>
+        </article>
+
 
         <!--i Piatti che cunierai-->
         <section class="titolo-paragrafo">
@@ -179,16 +207,32 @@
         <section class="gallery">
             <div class="row mb-xxl">
                 <div class="col-lg-4 gallery__full-h">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/ph(3).jpg" alt="">
+                    <picture>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ph(3).jpg" alt="">
+                        <p class="capt">Pizza</p>
+                    </picture>    
                 </div>
                 <div class="col-lg-8 gallery__split">
                     <div class="row">
-                        <div class="col-lg-6"><img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt=""></div>
-                        <div class="col-lg-6"><img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt=""></div>
+                        <div class="col-lg-6">
+                            <picture>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt="">
+                                <p class="capt">Focaccia</p>
+                            </picture>
+                        </div>
+                        <div class="col-lg-6">
+                            <picture>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt="">
+                                <p class="capt">Pane</p>
+                            </picture>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 gallery__full-w">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt="">
+                            <picture>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg" alt="">
+                                <p class="capt">Focaccia Genovese</p>
+                            </picture>    
                         </div>
                     </div>
                 </div>
