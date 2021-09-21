@@ -5,6 +5,22 @@
 
     <div class="container pb-s pt-s" >
 
+        <div class="row subpage-hero mb-xxl">
+            <div class="col-12 col-lg-6 subpage-hero__text">
+                    <p class="overtitle">Dough Academy</p> 
+                    <h1 class="mb-m">Blog</h1>
+                    <p>
+                        P here. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
+                    </p> 
+            </div>
+            <div class="col-12 col-lg-6 subpage-hero__img d-sm-none d-lg-flex">
+                <picture style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg')">
+
+                </picture>
+            </div>
+        </div>
+
         <div class="row">
  
             <?php $sticky = get_option( 'sticky_posts' );

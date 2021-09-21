@@ -28,7 +28,7 @@
                 margin-bottom: 10px
             }
             #login h1::after, .login h1::after {
-                content: "for dev help 👇 (matteobruschetti@gmail.com) ";
+                content: "by Federico Toldo e Matteo Bruschetti";
                 font-size: 16px;
                 font-weight: 400;
                 opacity: 0.8;

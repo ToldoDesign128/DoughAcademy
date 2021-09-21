@@ -6,13 +6,10 @@ if ( have_posts() ) {
     while ( have_posts() ) {
         the_post();
     ?>
-    <!-- The template for displaying any single dinamic posts -->
 
-    <p>single.php here</p>
-    <p><?php the_title(); ?></p>
-    <p><?php the_content(); ?> </p>
-
-
+    <div class="container">
+        <?php the_content(); ?>
+    </div>
     <?php
     }
 }

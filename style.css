@@ -1114,4 +1114,97 @@ article a {
   transform: scale(1.01);
   opacity: 0.9;
 }
+
+.subpage-hero__text {
+  background-color: #534741;
+  padding: 3rem 1rem;
+  border-radius: 0;
+}
+
+@media (min-width: 576px) {
+  .subpage-hero__text {
+    padding: 3rem;
+    border-radius: 0.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .subpage-hero__text {
+    border-radius: 0.75rem 0 0 0.75rem;
+  }
+}
+
+.subpage-hero__text p {
+  color: #FEFEFE;
+}
+
+.subpage-hero__text p.overtitle {
+  color: #FEFEFE;
+}
+
+.subpage-hero__text p.subtitle {
+  color: #FEFEFE;
+}
+
+.subpage-hero__text h1 {
+  color: #C7B299;
+}
+
+.subpage-hero__img {
+  padding: 0;
+}
+
+.subpage-hero__img picture {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.single-post {
+  /*----------------------------------------
+    BUTTONS
+    -----------------------------------------*/
+}
+
+.single-post .wp-block-separator {
+  border-color: #534741;
+}
+
+.single-post ul {
+  list-style: disc;
+  color: #534741;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .single-post ul {
+    font-size: 1.125rem;
+  }
+}
+
+.single-post .wp-block-button__link {
+  display: inline-block;
+  color: #534741;
+  background: #FEFEFE;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 2px;
+  border-radius: 100px;
+  padding: 16px 32px;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.single-post .wp-block-button__link:hover {
+  box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
+  background-color: #C7B299;
+}
+
+.single-corsi {
+  color: red !important;
+}
 /*# sourceMappingURL=style.css.map */

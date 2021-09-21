@@ -328,7 +328,7 @@
         <section class="fascia-evidenza fascia-evidenza__dark mb-xxl">
             <div class="row t-center">
                 <div class="col-12">
-                    <h2 class="mb-s">Form Mailchimp</h2>
+                    <h2 class="mb-s">Form Mailchimp da embeddare</h2>
                     <p>
                         P here. 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.

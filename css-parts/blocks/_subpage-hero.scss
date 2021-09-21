@@ -1,0 +1,38 @@
+.subpage-hero__text{
+
+    background-color: $color-primary;
+    padding: 3rem 1rem;
+    border-radius: 0;
+
+    @media #{$xsmall}{
+        padding: 3rem;
+        border-radius: 0.75rem;
+    }
+    @media #{$large}{
+        border-radius: 0.75rem 0 0 0.75rem;
+
+    }
+    
+    p{
+        color: $color-white;
+        &.overtitle{
+            color: $color-white;
+        }
+        &.subtitle{
+            color: $color-white;
+        }
+    }
+    h1{color: $color-secondary;}
+}
+
+.subpage-hero__img{
+    padding: 0;
+
+    picture{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 0 0.75rem 0.75rem 0;
+    }
+}
