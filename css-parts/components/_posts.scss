@@ -6,6 +6,9 @@ article{
     }
 }
 
+.article__no-dec{text-decoration: none;}
+
+
 .article__picture{
     max-height: 400px;
     display: inline-block;
@@ -30,7 +33,6 @@ article{
 
 .article__title{
     font-size: clamp(1.5rem, 3vw, 2.5rem);
-    
     text-overflow: ellipsis;
     overflow: hidden;
     display: -webkit-box !important;

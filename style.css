@@ -703,6 +703,10 @@ article a {
   text-decoration: none;
 }
 
+.article__no-dec {
+  text-decoration: none;
+}
+
 .article__picture {
   max-height: 400px;
   display: inline-block;
