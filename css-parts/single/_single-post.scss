@@ -1,4 +1,4 @@
-.single-post{
+.single-post, .page-id-90{
     .wp-block-separator {
         border-color: $color-primary;
     }
@@ -11,6 +11,10 @@
             font-size: 1.125rem; //18px on desktop
         }
     }
+
+    img, figure {border-radius: 0.75rem;}
+
+
     
     /*----------------------------------------
     BUTTONS

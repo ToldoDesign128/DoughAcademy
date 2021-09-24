@@ -9,5 +9,14 @@ jQuery(document).ready(function() {
         }
     });
 
+
+    jQuery('#contatti').on('click', function(e){
+        e.preventDefault();
+        console.log('cont');
+        jQuery('html, body').animate( {
+            scrollTop: jQuery(document).height()
+        }, 600);
+    }); 
+
     
 })

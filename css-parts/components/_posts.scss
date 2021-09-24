@@ -1,5 +1,12 @@
 article{
-    max-width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media #{$large}{
+        max-width: 90%;
+    }
 
     a{
         text-decoration: none;
@@ -10,7 +17,7 @@ article{
 
 
 .article__picture{
-    max-height: 400px;
+    height: 400px;
     display: inline-block;
 
     img{
@@ -35,20 +42,23 @@ article{
     font-size: clamp(1.5rem, 3vw, 2.5rem);
     text-overflow: ellipsis;
     overflow: hidden;
-    display: -webkit-box !important;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
 
 }
 
 .article__excerpt{
     overflow: hidden;
-    word-break: break-word;
-    display: -webkit-box;
-            -webkit-line-clamp: 4;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+            -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
 }
 
 .article__link{
     color: $color-primary;
 }
+
+
+

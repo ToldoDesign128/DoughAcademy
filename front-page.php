@@ -9,7 +9,7 @@
                     <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
                     <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
                     <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca dell'impasto con professionalità e competenza</p> 
-                    <a class="btn btn-center-mobile mt-m" href="#">Inizia a cucinare</a>
+                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Inizia a cucinare</a>
                 </div>
             </div>
         </section>
@@ -27,13 +27,12 @@
                     <h2 class="mb-m">Una passione iniziata 25 anni fa...</h2>
                     <p class="subtitle mb-s">Ciao mi chiamo Mirko Savoia e sono un pizzaiolo con 25 anni di esperienza.</p>
                     <p>
-                        La mia passione per il mondo della panificazione è iniziata a soli 17 anni quando ho cominciato, come spesso accade, a lavorare come semplice apprendista in una piccola pizzeria di paese.
-                        L’ amore per il mio mestiere mi ha portato ad accrescere le mie competenze riguardo al mondo della panificazione, a studiare e ad innovarmi costantemente.
                         Da diversi anni aiuto professionisti e appassionati casalinghi ad imparare a preparare ottime pizze, pane, focacce e tanti altri prodotti di panificazione.
                         Col tempo ho capito che tramite l insegnamento delle giuste conoscenze chiunque può imparare a preparare a casa propria ottimi impasti allo stesso livello, o addirittura meglio, di quelli dei piu famosi professionisti.
                         <br>
                         Il mio mestiere è aiutarvi a realizzare tutto questo con semplicità e tanta passione.
-                    </p> 
+                    </p>
+                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'chi-sono' ) ); ?>">Piacere di conoscerti</a>
                 </div>
             </div>
         </section>
@@ -46,11 +45,13 @@
                     <p class="overtitle">le Pizza class</p> 
                     <h2 class="mb-s">Impariamo l’ arte bianca a casa</h2>
                     <p>
-                        Le pizza class sono un modo innovativo per imparare e acquisire nuove competenze e realizzare in casa i tuoi impasti. Le pizza class sono delle vere e proprie classi in cui sarai costantemente seguito in ogni passaggio, troverai aggiornamenti e approfondimenti dedicati al mondo della panificazione, avrai sempre una risposta a tutte le tue domande e potrai imparare e crescere condividendo con la nostra community la tua passione. All interno delle pizza class troverai tre video ricette in cui ti spiegheremo attraverso tutti i passaggi come realizzarle in modo preciso e accurato: dalle dosi alla fase dell impastamento, dalla gestione dell impasto alla formatura dei panetti fini ad arrivare alla cottura. Le video ricette e tutto il materiale raccolto durante il corso saranno sempre consultabili in qualunque momento della giornata svincolandoti completamente da problemi di orario. Sarai quindi libero di seguire il corso senza obblighi di orario ma avendo costantemente assistenza personalizzata.
-                        Se vuoi informazioni più specifiche scrivici qui, ti risponderemo in tempi brevissimi.
+                        Le pizza class sono un modo innovativo per imparare e acquisire nuove competenze e realizzare in casa i tuoi impasti. Le pizza class sono delle vere e proprie classi in cui sarai costantemente seguito in ogni passaggio, troverai aggiornamenti e approfondimenti dedicati al mondo della panificazione, avrai sempre una risposta a tutte le tue domande e potrai imparare e crescere condividendo con la nostra community la tua passione.
+                        <br><br>
+                        All interno delle pizza class troverai tre video ricette in cui ti spiegheremo attraverso tutti i passaggi come realizzarle in modo preciso e accurato: dalle dosi alla fase dell impastamento, dalla gestione dell impasto alla formatura dei panetti fini ad arrivare alla cottura. Le video ricette e tutto il materiale raccolto durante il corso saranno sempre consultabili in qualunque momento della giornata svincolandoti completamente da problemi di orario. Sarai quindi libero di seguire il corso senza obblighi di orario ma avendo costantemente assistenza personalizzata.
+                        <br><br>
                         Passione, studio e competenza al tuo servizio.
                     </p> 
-                    <a class="btn mt-m" href="#">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impastano_pizza.png" alt="">
@@ -251,10 +252,10 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="#">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
-                    <a class="link mt-m" href="#">Contattami</a> 
+                    <a class="link mt-m" id="contatti" href="#">Contattami</a> 
                 </div>
             </div>
         </section>
@@ -377,7 +378,6 @@
                 </div>
             </div>
         </section>
-
 
 
     </div> <!--container-->

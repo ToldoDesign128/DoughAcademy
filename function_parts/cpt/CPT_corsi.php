@@ -108,7 +108,7 @@
         $XY_query = new WP_Query( $args );
         if( $XY_query->have_posts() ){ ?>
 
-            <div class="container pb-s pt-s" >
+            <section>
 
                 <div class="row subpage-hero mb-xxl">
                     <div class="col-12 col-lg-6 subpage-hero__text">
@@ -150,6 +150,7 @@
                     wp_reset_postdata();
                     ?>
                 </div> 
+
             </section>
             <?php
         } else {

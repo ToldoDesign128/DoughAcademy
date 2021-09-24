@@ -10,6 +10,7 @@ if ( have_posts() ) {
     <div class="container">
         <?php the_content(); ?>
     </div>
+    
     <?php
     }
 }

@@ -6,7 +6,11 @@
     <?php if ( have_posts() ) {
         while ( have_posts() ) {
             the_post(); ?>
+
+            <div class="container pb-s pt-m">
                     <?php the_content(); ?>
+            </div>
+            
             <?php
         }
     }?>

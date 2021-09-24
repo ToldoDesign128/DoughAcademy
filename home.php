@@ -3,7 +3,7 @@
 ------------------------------------------------------->
 <?php get_header(); ?>
 
-    <div class="container pb-s pt-s" >
+    <div class="container pb-s pt-l" >
 
         <div class="row subpage-hero mb-xxl">
             <div class="col-12 col-lg-6 subpage-hero__text">
@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="row  mb-xxl">
+        <div class="row mb-xxl">
 
                 <?php $sticky = get_option( 'sticky_posts' );
                     rsort( $sticky );
@@ -32,7 +32,7 @@
                     $sticky_query = new WP_Query( $args );
                     while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
 
-                        <div class="col-12 col-lg-6 mb-m">
+                        <div class="col-12 col-lg-5 mb-m">
                             <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
                         </div>   
                         <div class="col-12 col-lg-6">
@@ -60,10 +60,14 @@
 
                     <div class="col-12 col-lg-6 mb-xxl">
                         <article>
-                            <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
-                            <a href="<?php the_permalink(); ?>" class="article__no-dec"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
-                            <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
-                            <a href="<?php the_permalink(); ?>" class="link article__link">Leggi l'articolo</a>
+                            <div class="flex-top">
+                                <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
+                                <a href="<?php the_permalink(); ?>" class="article__no-dec"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
+                            </div>
+                            <div class="flex-bottom">
+                                <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="link article__link">Leggi l'articolo</a>
+                            </div>
                         </article>
                     </div>
                 <?php endwhile;
@@ -84,10 +88,10 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="#">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
-                    <a class="link mt-m" href="#">Contattami</a> 
+                    <a class="link mt-m" id="contatti" href="#">Contattami</a> 
                 </div>
             </div>
         </section>
