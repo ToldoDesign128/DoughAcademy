@@ -32,7 +32,7 @@
                     $sticky_query = new WP_Query( $args );
                     while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
 
-                        <div class="col-12 col-lg-5 mb-m">
+                        <div class="col-12 col-lg-6 mb-m">
                             <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
                         </div>   
                         <div class="col-12 col-lg-6">

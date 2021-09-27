@@ -178,10 +178,10 @@
                     $sticky_query = new WP_Query( $args );
                     while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
 
-                             <div class="col-12 col-md-4 mb-m">
+                             <div class="col-12 col-md-6 mb-m">
                                 <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
                             </div>
-                            <div class="col-12 col-md-8 v-align-col-center">
+                            <div class="col-12 col-md-6 v-align-col-center">
                                 <p class="article__date p-little mb-xs"><?php echo get_the_date(); ?></p>
                                 <a href="<?php the_permalink(); ?>"><h2 class="article__title mb-m"><?php the_title(); ?></h2></a>
                                 <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>

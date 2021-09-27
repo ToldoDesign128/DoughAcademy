@@ -27,6 +27,13 @@
             background-color: $color-primary;
         }
 
+        @media #{$large} {        
+            
+            &::before{
+            height: 85%;}
+            
+        }
+
         .article__date{
             color: $color-secondary;
         }
