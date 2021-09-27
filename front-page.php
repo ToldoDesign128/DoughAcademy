@@ -75,7 +75,7 @@
 
             <div class="row mb-xxl">
 
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="icon">
 
                     <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@
 
                     </p> 
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="icon">
                         
                     <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +118,8 @@
                         I corsi sono pensati per aiutarti e portarti passo a passo verso il risultato.
                     </p> 
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
+
+              <!--  <div class="col-12 col-md-6 col-lg-3">
 
                 <div class="icon">
 
@@ -138,8 +139,9 @@
                         Puoi rimanere aggiornato sui miei corsi, comunicare con me e seguire il PizzaBlog.
 
                     </p> 
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
+                </div> -->
+
+                <div class="col-12 col-md-6 col-lg-4">
 
                 <div class="icon">
 
