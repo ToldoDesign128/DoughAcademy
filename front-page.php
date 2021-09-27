@@ -167,7 +167,7 @@
         </section>
 
         <!-- Articolo in evidenza -->
-        <article class="articolo-in-home articolo-in-home__dark mb-xxl">
+        <article class="articolo-in-home articolo-in-home__dark mb-l">
             <div class="row mb-l">
                 <?php $sticky = get_option( 'sticky_posts' );
                     rsort( $sticky );
