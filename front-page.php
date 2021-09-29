@@ -287,7 +287,7 @@
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r2.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
@@ -304,7 +304,7 @@
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r3.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
