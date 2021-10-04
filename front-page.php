@@ -20,7 +20,7 @@
         <section class="testo-img testo-img__light">
             <div class="row mb-xxl">
                 <div class="col-12 col-lg-5 mb-m immagine">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_pizza_Mirko_Savoia.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/2021_Savoia Pizza-4374DSCF4374.jpg" alt="">
                 </div>
                 <div class="col-12 col-lg-7">
                     <p class="overtitle">Mirko savoia</p> 

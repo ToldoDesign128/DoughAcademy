@@ -1,38 +1,60 @@
 .single-post, .page-id-90{
-    .wp-block-separator {
-        border-color: $color-primary;
-    }
 
-    ul {
-        list-style: disc;
-        color: $color-primary;
-        font-size: 1rem; //16px on mobile 
-        @media #{$large} {
-            font-size: 1.125rem; //18px on desktop
+    main{
+
+        h1{
+            font-size: clamp(2.5rem, 8vw, 4.5rem);;
+            color: $color-primary;
+            margin-bottom: 4.5rem;
         }
-    }
 
-    img, figure {border-radius: 0.75rem;}
-
-
+        p{
+            margin-bottom: 0.75rem; 
     
-    /*----------------------------------------
-    BUTTONS
-    -----------------------------------------*/
-    .wp-block-button__link {
-        display: inline-block;
-        color: $color-primary;
-        background: $color-white;
-        font-size: 1rem;
-        text-transform: uppercase; text-decoration: none;
-        font-weight: 800; letter-spacing: 2px;
-        border-radius: 100px;
-        padding: 16px 32px;
-        box-shadow: 0 1px 2px 0 rgba(60,64,67,0.30), 0 1px 3px 1px rgba(60,64,67,0.15);
-        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    }
-        .wp-block-button__link:hover {
-            box-shadow: 0 1px 3px 0 rgba(60,64,67,0.30), 0 4px 8px 3px rgba(60,64,67,0.15);
-            background-color: $color-secondary;
+            a{
+                color: $color-primary;
+                font-weight: 700;
+            }
         }
+    
+        .wp-block-separator {
+            border-color: $color-primary;
+        }
+    
+        ul {
+            list-style: disc;
+            color: $color-primary;
+            font-size: 1rem; //16px on mobile 
+            @media #{$large} {
+                font-size: 1.125rem; //18px on desktop
+            }
+    
+            li{margin-bottom: 0.75rem; }
+        }
+    
+        img, figure {border-radius: 0.75rem;}
+    
+    
+        
+        /*----------------------------------------
+        BUTTONS
+        -----------------------------------------*/
+        .wp-block-button__link {
+            display: inline-block;
+            color: $color-primary;
+            background: $color-white;
+            font-size: 1rem;
+            text-transform: uppercase; text-decoration: none;
+            font-weight: 800; letter-spacing: 2px;
+            border-radius: 100px;
+            padding: 16px 32px;
+            box-shadow: 0 1px 2px 0 rgba(60,64,67,0.30), 0 1px 3px 1px rgba(60,64,67,0.15);
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+        }
+            .wp-block-button__link:hover {
+                box-shadow: 0 1px 3px 0 rgba(60,64,67,0.30), 0 4px 8px 3px rgba(60,64,67,0.15);
+                background-color: $color-secondary;
+            }
+    }
+
 }

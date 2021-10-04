@@ -7,7 +7,8 @@ if ( have_posts() ) {
         the_post();
     ?>
 
-    <div class="container">
+    <div class="container pb-s pt-m">
+        <h1 class="single-post-h1"><?php the_title(); ?></h1>
         <?php the_content(); ?>
     </div>
     

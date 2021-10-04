@@ -1278,33 +1278,52 @@ article a {
   border-radius: 0 0.75rem 0.75rem 0;
 }
 
-.single-post, .page-id-90 {
+.single-post main, .page-id-90 main {
   /*----------------------------------------
-    BUTTONS
-    -----------------------------------------*/
+        BUTTONS
+        -----------------------------------------*/
 }
 
-.single-post .wp-block-separator, .page-id-90 .wp-block-separator {
+.single-post main h1, .page-id-90 main h1 {
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  color: #534741;
+  margin-bottom: 4.5rem;
+}
+
+.single-post main p, .page-id-90 main p {
+  margin-bottom: 0.75rem;
+}
+
+.single-post main p a, .page-id-90 main p a {
+  color: #534741;
+  font-weight: 700;
+}
+
+.single-post main .wp-block-separator, .page-id-90 main .wp-block-separator {
   border-color: #534741;
 }
 
-.single-post ul, .page-id-90 ul {
+.single-post main ul, .page-id-90 main ul {
   list-style: disc;
   color: #534741;
   font-size: 1rem;
 }
 
 @media (min-width: 992px) {
-  .single-post ul, .page-id-90 ul {
+  .single-post main ul, .page-id-90 main ul {
     font-size: 1.125rem;
   }
 }
 
-.single-post img, .single-post figure, .page-id-90 img, .page-id-90 figure {
+.single-post main ul li, .page-id-90 main ul li {
+  margin-bottom: 0.75rem;
+}
+
+.single-post main img, .single-post main figure, .page-id-90 main img, .page-id-90 main figure {
   border-radius: 0.75rem;
 }
 
-.single-post .wp-block-button__link, .page-id-90 .wp-block-button__link {
+.single-post main .wp-block-button__link, .page-id-90 main .wp-block-button__link {
   display: inline-block;
   color: #534741;
   background: #FEFEFE;
@@ -1321,7 +1340,7 @@ article a {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.single-post .wp-block-button__link:hover, .page-id-90 .wp-block-button__link:hover {
+.single-post main .wp-block-button__link:hover, .page-id-90 main .wp-block-button__link:hover {
   -webkit-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
           box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
   background-color: #C7B299;
