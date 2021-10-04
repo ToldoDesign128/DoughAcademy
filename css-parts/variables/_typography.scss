@@ -28,6 +28,13 @@ h3{
     color: $color-primary;
 }
 
+h4{
+    font-family: $font-primary;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    font-weight: 600;
+    line-height: 110%;
+    color: $color-primary;
+}
 
 p{
     font-weight: 400;

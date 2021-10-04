@@ -82,6 +82,14 @@ h3 {
   color: #534741;
 }
 
+h4 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  line-height: 110%;
+  color: #534741;
+}
+
 p {
   font-weight: 400;
   line-height: 140%;
