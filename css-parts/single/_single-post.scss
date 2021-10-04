@@ -2,6 +2,9 @@
 
     main{
 
+    img {border-radius: 0.75rem; object-fit: cover;}
+    figure {border-radius: 0.75rem;} 
+
         h1{
             font-size: clamp(2.5rem, 8vw, 4.5rem);;
             color: $color-primary;

@@ -9,7 +9,7 @@
                     <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
                     <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
                     <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca dell'impasto con professionalità e competenza</p> 
-                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Inizia a cucinare</a>
+                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_post_permalink( 109 ); ?>">Inizia a cucinare</a>
                 </div>
             </div>
         </section>
@@ -32,7 +32,7 @@
                         <br>
                         Il mio mestiere è aiutarvi a realizzare tutto questo con semplicità e tanta passione.
                     </p>
-                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'chi-sono' ) ); ?>">Piacere di conoscerti</a>
+                    <a class="btn mt-m" href="<?php echo get_post_permalink( 72 ); ?>">Piacere di conoscerti</a>
                 </div>
             </div>
         </section>
@@ -47,11 +47,9 @@
                     <p>
                         Le pizza class sono un modo innovativo per imparare e acquisire nuove competenze e realizzare in casa i tuoi impasti. Le pizza class sono delle vere e proprie classi in cui sarai costantemente seguito in ogni passaggio, troverai aggiornamenti e approfondimenti dedicati al mondo della panificazione, avrai sempre una risposta a tutte le tue domande e potrai imparare e crescere condividendo con la nostra community la tua passione.
                         <br><br>
-                        All interno delle pizza class troverai tre video ricette in cui ti spiegheremo attraverso tutti i passaggi come realizzarle in modo preciso e accurato: dalle dosi alla fase dell impastamento, dalla gestione dell impasto alla formatura dei panetti fini ad arrivare alla cottura. Le video ricette e tutto il materiale raccolto durante il corso saranno sempre consultabili in qualunque momento della giornata svincolandoti completamente da problemi di orario. Sarai quindi libero di seguire il corso senza obblighi di orario ma avendo costantemente assistenza personalizzata.
-                        <br><br>
                         Passione, studio e competenza al tuo servizio.
                     </p> 
-                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_post_permalink( 108 ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impastano_pizza.png" alt="">
@@ -287,7 +285,7 @@
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r2.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
@@ -304,7 +302,7 @@
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
                         <div class="foto-profilo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/r.png" alt="">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/r3.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="22" cy="22" r="22" class="svg-social-icon-bg"/>
