@@ -9,7 +9,7 @@
                     <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
                     <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
                     <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca dell'impasto con professionalità e competenza</p> 
-                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_post_permalink( 86 ); ?>">Inizia a cucinare</a>
+                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_post_permalink( 109 ); ?>">Inizia a cucinare</a>
                 </div>
             </div>
         </section>
