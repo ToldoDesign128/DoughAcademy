@@ -20,7 +20,7 @@
         <section class="testo-img testo-img__light">
             <div class="row mb-xxl">
                 <div class="col-12 col-lg-5 mb-m immagine">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/2021_Savoia Pizza-4374DSCF4374.jpg" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_pizza_Mirko_Savoia.png" alt="">
                 </div>
                 <div class="col-12 col-lg-7">
                     <p class="overtitle">Mirko savoia</p> 
@@ -252,7 +252,7 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_post_permalink( 109 ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
                     <a class="link mt-m" id="contatti" href="#">Contattami</a> 
