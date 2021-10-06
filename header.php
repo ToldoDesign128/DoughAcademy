@@ -20,7 +20,7 @@
                     <div class="col-4 col-md-6 col-lg-8">
                         <div class="logo">
                             <a class="navbar-brand" href="<?php echo esc_url_raw(home_url()); ?>">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
                                     <g id="Livello_2" data-name="Livello 2">
                                             <g id="Livello_1-2" data-name="Livello 1">
                                                 <path class="cls-1" d="M82.89,57.54a67.25,67.25,0,0,1-10.13-3.08l-4.15-1.7c0,7.59,5.35,18.41,12.48,19.82A40.64,40.64,0,0,1,91,76.15l4.12,2V72.94A15.82,15.82,0,0,0,82.89,57.54Z"/>
