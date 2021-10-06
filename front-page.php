@@ -252,7 +252,7 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="<?php echo get_post_permalink( 109 ) ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
                     <a class="link mt-m" id="contatti" href="#">Contattami</a> 
