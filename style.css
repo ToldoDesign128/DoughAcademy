@@ -1310,6 +1310,8 @@ article a {
 
 .single-post img, .single-post figure, .page-id-90 img, .page-id-90 figure {
   border-radius: 0.75rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .single-post .wp-block-button__link, .page-id-90 .wp-block-button__link {
