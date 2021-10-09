@@ -16,7 +16,7 @@
     
     <header>
         <nav>
-            <div class="container navbar">
+            <div class="container navbar mt-xs">
                 <div class="row">
 
                     <!--logo svg-->
