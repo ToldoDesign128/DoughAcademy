@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <div class="row mb-xxl">
+        <div class="row mb-xxl casa">
 
                 <?php $sticky = get_option( 'sticky_posts' );
                     rsort( $sticky );
@@ -52,7 +52,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row casa">
 
             <?php $sticky = get_option( 'sticky_posts' );
                 rsort( $sticky );
@@ -92,7 +92,7 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m casa" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
                     <a class="link mt-m" id="contatti" href="#">Contattami</a> 
@@ -107,7 +107,7 @@
                 <div class="col-12">
                     <h2 class="mb-s">#Dough Academy</h2>
                     <div class="row justify-content-center">
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Facebook-->
                             <a href="<?php echo get_theme_mod("XY_social_facebook"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Instagram-->
                             <a href="<?php echo get_theme_mod("XY_social_instagram"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +127,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Youtube-->
                             <a href="<?php echo get_theme_mod("XY_social_youtube"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">

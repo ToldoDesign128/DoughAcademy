@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function() {
 
-    ScrollReveal().reveal('.casa', { distance: '80px', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600  });
+    ScrollReveal().reveal('.casa', { distance: '80px', duration: 800, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 400});
 
     //NAVBAR after scrolling
     jQuery(window).on("scroll", function() {

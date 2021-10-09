@@ -19,7 +19,7 @@
         <!--Bio-->
         <section class="testo-img testo-img__light">
             <div class="row mb-xxl">
-                <div class="col-12 col-lg-5 mb-m immagine">
+                <div class="col-12 col-lg-5 mb-m immagine casa">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_pizza_Mirko_Savoia.png" alt="">
                 </div>
                 <div class="col-12 col-lg-7">
@@ -51,7 +51,7 @@
                     </p> 
                     <a class="btn mt-m casa" href="<?php echo get_post_permalink( 108 ); ?>">Scopri i corsi</a>
                 </div>
-                <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last">
+                <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last casa">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impastano_pizza.png" alt="">
                 </div>
             </div>
@@ -252,7 +252,7 @@
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m" href="<?php echo get_post_permalink( 109 ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m casa" href="<?php echo get_post_permalink( 109 ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
                     <a class="link mt-m" id="contatti" href="#">Contattami</a> 
@@ -266,7 +266,7 @@
             <div class="row">
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
-                        <div class="foto-profilo">
+                        <div class="foto-profilo casa">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r1.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -284,7 +284,7 @@
                 </div>
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
-                        <div class="foto-profilo">
+                        <div class="foto-profilo casa">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r2.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,7 +301,7 @@
                 </div>
                 <div class="col-12 col-lg-4 mb-l">
                     <picture>
-                        <div class="foto-profilo">
+                        <div class="foto-profilo casa">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/r3.jpg" alt="">
                             <div class="fb-badget">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -345,7 +345,7 @@
                 <div class="col-12">
                     <h2 class="mb-s">#Dough Academy</h2>
                     <div class="row justify-content-center">
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Facebook-->
                             <a href="<?php echo get_theme_mod("XY_social_facebook"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -354,7 +354,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Instagram-->
                             <a href="<?php echo get_theme_mod("XY_social_instagram"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -365,7 +365,7 @@
                                 </svg>
                             </a>
                         </div>
-                        <div class="col-3 col-lg-2">
+                        <div class="col-3 col-lg-2 casa">
                             <!--Youtube-->
                             <a href="<?php echo get_theme_mod("XY_social_youtube"); ?>" target="_blank">
                                 <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
