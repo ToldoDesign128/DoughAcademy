@@ -9,7 +9,7 @@
                     <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
                     <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
                     <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca dell'impasto con professionalità e competenza</p> 
-                    <a class="btn btn-center-mobile mt-m" href="<?php echo get_post_permalink( 109 ); ?>">Inizia a cucinare</a>
+                    <a class="btn btn-center-mobile mt-m casa" href="<?php echo get_post_permalink( 109 ); ?>">Inizia a cucinare</a>
                 </div>
             </div>
         </section>
@@ -32,7 +32,7 @@
                         <br>
                         Il mio mestiere è aiutarvi a realizzare tutto questo con semplicità e tanta passione.
                     </p>
-                    <a class="btn mt-m" href="<?php echo get_post_permalink( 72 ); ?>">Piacere di conoscerti</a>
+                    <a class="btn mt-m casa" href="<?php echo get_post_permalink( 72 ); ?>">Piacere di conoscerti</a>
                 </div>
             </div>
         </section>
@@ -49,7 +49,7 @@
                         <br><br>
                         Passione, studio e competenza al tuo servizio.
                     </p> 
-                    <a class="btn mt-m" href="<?php echo get_post_permalink( 108 ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-m casa" href="<?php echo get_post_permalink( 108 ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impastano_pizza.png" alt="">

@@ -20,6 +20,7 @@
     add_action("wp_enqueue_scripts", "XY_styles");
     //add JS
     function XY_scripts() {
+        wp_enqueue_script("XY-scrollreveal", get_template_directory_uri().'/js/scrollreveal.min.js', array(), null, false);
         wp_enqueue_script("XY-scriptjs", get_template_directory_uri().'/js/script.js', array("jquery"), null, true);
     }
     add_action("wp_enqueue_scripts", "XY_scripts");
@@ -111,4 +112,5 @@
 
     //CPT
     // require dirname(__FILE__).'/function_parts/cpt/CPT_corsi.php'; 
+
 ?>
