@@ -846,6 +846,13 @@ article a {
           justify-content: center;
 }
 
+.card {
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 20px #a68e82;
+          box-shadow: 0px 0px 20px #a68e82;
+  padding: 25px;
+}
+
 .hero {
   height: 98vh;
   padding: 4rem 0;
