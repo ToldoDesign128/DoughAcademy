@@ -851,7 +851,9 @@ article a {
   border-radius: 15px;
   -webkit-box-shadow: 0px 0px 20px #a68e82;
           box-shadow: 0px 0px 20px #a68e82;
-  padding: 25px;
+  padding: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .hero {
