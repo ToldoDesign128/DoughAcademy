@@ -19,41 +19,44 @@
 
                 </picture>
             </div>
-        </div>
+        </div> <!--hero-->
 
 
-            <div class="row mb-xxl casa card">
+        <?php $sticky = get_option( 'sticky_posts' );
+            rsort( $sticky );
+            $args = array(
+                'post__in' => $sticky,
+                'posts_per_page' => 1
+            );
+            $sticky_query = new WP_Query( $args );
+            while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
 
-                    <?php $sticky = get_option( 'sticky_posts' );
-                        rsort( $sticky );
-                        $args = array(
-                            'post__in' => $sticky,
-                            'posts_per_page' => 1
-                        );
-                        $sticky_query = new WP_Query( $args );
-                        while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
+                    <a href="<?php the_permalink(); ?>" class="row mb-xxl card sticky_post no-dec">
 
-                            <div class="col-12 col-lg-6 mb-m">
-                                <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
-                            </div>   
-                            <div class="col-12 col-lg-6">
-                                <div class="flex-center">
-                                    <a href="<?php the_permalink(); ?>" class="article__no-dec"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
-                                    <div class="no-flex">
-                                        <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink(); ?>" class="link article__link">Leggi</a>
-                                    </div>
+                        <div class="col-12 col-lg-6  no-p mb-m sticky_post_img">
+                            <picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture>
+                        </div>   
+
+                        <div class="col-12 col-lg-6 no-p ">
+                            <div class="flex-center">
+                                <h2 class="article__title mb-s"><?php the_title(); ?></h2>
+                                <div class="no-flex">
+                                    <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
+                                    <p class="link article__link">Leggi</p>
                                 </div>
                             </div>
-                            
-                        <?php endwhile;
-                        wp_reset_postdata();
-                    ?>
+                        </div>
 
-                </div>
+                    </a>
+       
+                
+            <?php endwhile;
+            wp_reset_postdata();
+        ?>
 
 
-        <div class="row casa">
+
+        <div class="row">
 
             <?php $sticky = get_option( 'sticky_posts' );
                 rsort( $sticky );
@@ -63,18 +66,19 @@
                 $sticky_query = new WP_Query( $args );
                 while ( $sticky_query->have_posts() ) : $sticky_query->the_post(); ?>
 
-                    <div class="col-12 col-lg-6 mb-xxl box">
-                        <article class="card">
+                    <a href="<?php the_permalink(); ?>" class="col-12 col-lg-6 mb-xxl no-dec">
+                        <article class="card casa">
                             <div class="flex-top">
-                                <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
-                                <a href="<?php the_permalink(); ?>" class="article__no-dec"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
+                                <picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture>
+                                <h2 class="article__title mb-s"><?php the_title(); ?></h2>
                             </div>
                             <div class="flex-bottom">
                                 <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
-                                <a href="<?php the_permalink(); ?>" class="link article__link">Leggi l'articolo</a>
+                                <p class="link article__link">Leggi l'articolo</p>
                             </div>
                         </article>
-                    </div>
+                    </a>
+
                 <?php endwhile;
                 wp_reset_postdata();
             ?>
