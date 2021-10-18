@@ -9,10 +9,9 @@ if ( have_posts() ) {
 
     <div class="container pb-s pt-m">
         <?php the_content(); ?>
-    </div>
 
-           <!--Form Mailchimp-->
-           <section class="fascia-evidenza fascia-evidenza__dark mb-xxl">
+        <!--Form Mailchimp-->
+        <section class="fascia-evidenza fascia-evidenza__dark mt-l mb-xxl">
             <div class="row t-center">
                 <div class="col-12">
                     <h2 class="mb-s">Form Mailchimp da embeddare</h2>
@@ -23,7 +22,6 @@ if ( have_posts() ) {
                 </div>
             </div>
         </section>
-
 
         <!--Social bar-->
         <section class="social-bar">
@@ -64,6 +62,8 @@ if ( have_posts() ) {
                 </div>
             </div>
         </section>
+
+    </div> <!-- .container -->
     
     <?php
     }
