@@ -536,6 +536,8 @@ nav .menu .current-menu-item a {
 
 nav.scrolled {
   background-color: #534741;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1), 0px 16px 80px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1), 0px 16px 80px rgba(0, 0, 0, 0.2);
 }
 
 nav.scrolled .logo svg path {

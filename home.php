@@ -90,14 +90,17 @@
         <section class="fascia-evidenza fascia-evidenza__dark mb-xxl">
             <div class="row t-center">
                 <div class="col-12">
-                    <h2 class="mb-s">Pronto a iniziare</h2>
+                    <h2 class="mb-l">Pronto a iniziare</h2>
                     <p>
-                        P here. 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
+                        Il buon pane, la pizza e le focacce hanno il profumo di casa, di domeniche in famiglia e con gli amici.
+                        Prepararsi la pizza in casa è un piacere, un momento da dedicare a se stessi e da condividere con le persone a cui si vuole bene.
+                        <br><br>
+                        La pizza è passione e studio, è voglia di mettersi in gioco, di migliorarsi e di imparare con costanza e amore. <br>
+                        Dough Academy è tutto questo.
                     </p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-m casa" href="<?php echo get_permalink( get_page_by_path( 'pizza-class' ) ); ?>">Scopri i corsi</a>
+                    <a class="btn mt-l casa" href="<?php echo get_post_permalink( 109 ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12">
                     <a class="link mt-m" id="contatti" href="#">Contattami</a> 
