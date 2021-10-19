@@ -530,7 +530,7 @@ nav .menu li a:hover {
   opacity: 0.8;
 }
 
-nav .menu .current-menu-item a {
+nav .menu .current_page_parent a {
   border-bottom: solid 3px #534741;
 }
 
@@ -548,7 +548,7 @@ nav.scrolled a {
   color: #C7B299;
 }
 
-nav.scrolled .current-menu-item a {
+nav.scrolled .current_page_parent a {
   border-bottom: solid 3px #C7B299;
 }
 

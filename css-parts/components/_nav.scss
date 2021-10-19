@@ -65,11 +65,9 @@ nav{
                 }
             }
         }
-        .current-menu-item{
+        .current_page_parent{ 
             a{
-                border-bottom: solid 3px $color-primary;
-    
-                
+                border-bottom: solid 3px $color-primary;            
             }
         }
     }
@@ -89,11 +87,9 @@ nav{
         a{
             color: $color-secondary;
         }
-        .current-menu-item{
+        .current_page_parent{
             a{
                 border-bottom: solid 3px $color-secondary;
-    
-                
             }
         }
     }
