@@ -1,0 +1,17 @@
+.pizza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        font-size: clamp(6rem, 15vw, 13rem);
+        font-weight: 600;
+        color: $color-primary;
+    }
+
+    img{
+        max-height: clamp(7rem, 12vw, 15rem);;
+        width: auto;
+        opacity: 0.9;
+    }
+}
