@@ -68,7 +68,7 @@
         -----------------------------------------*/
         .wp-block-media-text{
             .wp-block-media-text__media{
-                margin-bottom: 4.5rem;
+                margin-bottom: 4.5rem; 
 
                 @media #{$medium}{
                  margin-bottom: 0;   
@@ -78,7 +78,7 @@
             .wp-block-media-text__content{
                 padding: 0;
 
-                @media #{$medium}{
+                @media #{$medium}{ 
                     padding: 0 8%;   
                    }
             }
