@@ -12,10 +12,13 @@
                     <p>
                         P here. 
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
-                    </p> 
+                    </p>
+                    <br>
+                    <p>Per restare sempre aggiornato sul mondo dell'impasto, iscriviti alla newsletter ufficiale.</p>
+                    <a class="link mt-m" href="#">Iscriviti alla newsletter</a> 
             </div>
             <div class="col-12 col-lg-6 subpage-hero__img d-sm-none d-lg-flex">
-                <picture style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg')">
+                <picture style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_pizza_napoletana.jpg')">
 
                 </picture>
             </div>

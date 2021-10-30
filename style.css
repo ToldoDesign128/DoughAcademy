@@ -1304,6 +1304,10 @@ article a {
   color: #C7B299;
 }
 
+.subpage-hero__text a {
+  color: #C7B299;
+}
+
 .subpage-hero__img {
   padding: 0;
 }

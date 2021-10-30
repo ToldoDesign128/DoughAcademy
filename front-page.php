@@ -280,9 +280,11 @@
             <div class="row t-center">
                 <div class="col-12">
                     <h2 class="mb-s">Iscriviti alla newsletter ufficiale</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
                     </p> 
+                </div>
+                <div class="col-12">
+                    <a class="btn mt-l casa" href="">Iscriviti</a>
                 </div>
             </div>
         </section>
