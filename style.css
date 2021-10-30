@@ -1196,7 +1196,8 @@ article a {
 }
 
 .keypoints .icon {
-  height: 11rem;
+  height: 9rem;
+  text-align: center;
   width: 100%;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -1210,7 +1211,7 @@ article a {
 }
 
 .keypoints .icon svg {
-  width: 100%;
+  height: 100%;
 }
 
 .gallery img {
@@ -1339,62 +1340,71 @@ article a {
   opacity: 0.9;
 }
 
-.single-post main, .page-id-90 main {
+.single-post main {
   /*----------------------------------------
         BUTTONS
         -----------------------------------------*/
+  /*----------------------------------------
+        BLOCK testo immagine
+        -----------------------------------------*/
 }
 
-.single-post main img, .page-id-90 main img {
+.single-post main img {
   border-radius: 0.75rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.single-post main figure, .page-id-90 main figure {
+.single-post main figure {
   border-radius: 0.75rem;
 }
 
-.single-post main h1, .page-id-90 main h1 {
+.single-post main h1 {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   color: #534741;
   margin-bottom: 4.5rem;
 }
 
-.single-post main p, .page-id-90 main p {
+.single-post main p {
   margin-bottom: 0.75rem;
 }
 
-.single-post main p a, .page-id-90 main p a {
+.single-post main p a {
   color: #534741;
   font-weight: 700;
 }
 
-.single-post main .wp-block-separator, .page-id-90 main .wp-block-separator {
+.single-post main .wp-block-separator {
   border-color: #534741;
 }
 
-.single-post main ul, .page-id-90 main ul {
+.single-post main ul {
   list-style: disc;
-  color: #534741;
   font-size: 1rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .single-post main ul {
+    margin-left: 0;
+  }
 }
 
 @media (min-width: 992px) {
-  .single-post main ul, .page-id-90 main ul {
+  .single-post main ul {
     font-size: 1.125rem;
   }
 }
 
-.single-post main ul li, .page-id-90 main ul li {
+.single-post main ul li {
   margin-bottom: 0.75rem;
 }
 
-.single-post main img, .single-post main figure, .page-id-90 main img, .page-id-90 main figure {
+.single-post main img, .single-post main figure {
   border-radius: 0.75rem;
 }
 
-.single-post main .wp-block-button__link, .page-id-90 main .wp-block-button__link {
+.single-post main .wp-block-button__link {
   display: inline-block;
   color: #534741;
   background: #FEFEFE;
@@ -1411,10 +1421,30 @@ article a {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.single-post main .wp-block-button__link:hover, .page-id-90 main .wp-block-button__link:hover {
+.single-post main .wp-block-button__link:hover {
   -webkit-box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
           box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15);
   background-color: #C7B299;
+}
+
+.single-post main .wp-block-media-text .wp-block-media-text__media {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .single-post main .wp-block-media-text .wp-block-media-text__media {
+    margin-bottom: 0;
+  }
+}
+
+.single-post main .wp-block-media-text .wp-block-media-text__content {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .single-post main .wp-block-media-text .wp-block-media-text__content {
+    padding: 0 8%;
+  }
 }
 
 .single-corsi {
