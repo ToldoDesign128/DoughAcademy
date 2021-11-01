@@ -1219,6 +1219,10 @@ article a {
   border-radius: 0.75rem;
 }
 
+.gallery .gallery__full-h picture {
+  height: 100%;
+}
+
 .gallery .gallery__full-h img {
   height: 100%;
   -o-object-fit: cover;

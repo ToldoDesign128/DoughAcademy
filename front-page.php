@@ -59,7 +59,7 @@
                 <div class="col-12">
                     <h2 class="mb-s">Cosa ti aspetta</h2>
                     <p>
-                        Questa sezione è pensata per comunicare in modo rapido ed efficente le caratteristiche chiave e i punti di forza dei corsi.
+                        I nostri corsi sono personalizzati e su misura per te.
                     </p> 
                 </div>
             </div>
@@ -153,7 +153,7 @@
             </div>
         </section>
         <section class="gallery">
-            <div class="row mb-xxl">
+            <!-- <div class="row mb-xxl">
                 <div class="col-lg-4 gallery__full-h">
                     <picture>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/ph(3).jpg" alt="">
@@ -183,6 +183,26 @@
                             </picture>    
                         </div>
                     </div>
+                </div>
+            </div> -->
+            <div class="row mb-xxl">
+                <div class="col-lg-4 gallery__full-h mb-m">
+                    <picture>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Napoletana-moderna.jpeg" alt="Dough Academy pizza napoletana moderna">
+                        <p class="capt">Pizza Napoletana Moderna</p>
+                    </picture>    
+                </div>
+                <div class="col-lg-4 gallery__full-h mb-m">
+                    <picture>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Foccaccia.jpeg" alt="Dough Academy focaccia">
+                        <p class="capt">Focaccia</p>
+                    </picture>
+                </div>
+                <div class="col-lg-4 gallery__full-h mb-m">
+                    <picture>
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Biga.jpeg" alt="Dough Academy biga">
+                        <p class="capt">Biga</p>
+                    </picture>
                 </div>
             </div>
         </section>
@@ -280,8 +300,7 @@
             <div class="row t-center">
                 <div class="col-12">
                     <h2 class="mb-s">Iscriviti alla newsletter ufficiale</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
-                    </p> 
+                    <p>Iscriviti alla newsletter Dough Academy per ricevere tutti i nostri aggiornamenti in tempo reale.</p> 
                 </div>
                 <div class="col-12">
                     <a class="btn mt-l casa" href="">Iscriviti</a>
