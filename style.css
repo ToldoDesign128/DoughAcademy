@@ -14,9 +14,9 @@ HOSTING LOCAL FONTS with https://google-webfonts-helper.herokuapp.com/fonts/
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ubuntu-v15-latin-700.eot");
+  src: url("../../fonts/ubuntu-v15-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/ubuntu-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/ubuntu-v15-latin-700.woff2") format("woff2"), url("fonts/ubuntu-v15-latin-700.woff") format("woff"), url("fonts/ubuntu-v15-latin-700.ttf") format("truetype"), url("fonts/ubuntu-v15-latin-700.svg#Ubuntu") format("svg");
+  src: local(""), url("../../fonts/ubuntu-v15-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/ubuntu-v15-latin-700.woff2") format("woff2"), url("../../fonts/ubuntu-v15-latin-700.woff") format("woff"), url("../../fonts/ubuntu-v15-latin-700.ttf") format("truetype"), url("../../fonts/ubuntu-v15-latin-700.svg#Ubuntu") format("svg");
   /* Legacy iOS */
 }
 
@@ -25,9 +25,9 @@ HOSTING LOCAL FONTS with https://google-webfonts-helper.herokuapp.com/fonts/
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/open-sans-v23-latin-regular.eot");
+  src: url("../../fonts/open-sans-v23-latin-regular.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/open-sans-v23-latin-regular.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v23-latin-regular.woff2") format("woff2"), url("fonts/open-sans-v23-latin-regular.woff") format("woff"), url("fonts/open-sans-v23-latin-regular.ttf") format("truetype"), url("fonts/open-sans-v23-latin-regular.svg#OpenSans") format("svg");
+  src: local(""), url("../../fonts/open-sans-v23-latin-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/open-sans-v23-latin-regular.woff2") format("woff2"), url("../../fonts/open-sans-v23-latin-regular.woff") format("woff"), url("../../fonts/open-sans-v23-latin-regular.ttf") format("truetype"), url("../../fonts/open-sans-v23-latin-regular.svg#OpenSans") format("svg");
   /* Legacy iOS */
 }
 
@@ -36,9 +36,9 @@ HOSTING LOCAL FONTS with https://google-webfonts-helper.herokuapp.com/fonts/
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url("fonts/open-sans-v23-latin-600.eot");
+  src: url("../../fonts/open-sans-v23-latin-600.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/open-sans-v23-latin-600.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v23-latin-600.woff2") format("woff2"), url("fonts/open-sans-v23-latin-600.woff") format("woff"), url("fonts/open-sans-v23-latin-600.ttf") format("truetype"), url("fonts/open-sans-v23-latin-600.svg#OpenSans") format("svg");
+  src: local(""), url("../../fonts/open-sans-v23-latin-600.eot?#iefix") format("embedded-opentype"), url("../../fonts/open-sans-v23-latin-600.woff2") format("woff2"), url("../../fonts/open-sans-v23-latin-600.woff") format("woff"), url("../../fonts/open-sans-v23-latin-600.ttf") format("truetype"), url("../../fonts/open-sans-v23-latin-600.svg#OpenSans") format("svg");
   /* Legacy iOS */
 }
 
@@ -47,9 +47,9 @@ HOSTING LOCAL FONTS with https://google-webfonts-helper.herokuapp.com/fonts/
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/open-sans-v23-latin-700.eot");
+  src: url("../../fonts/open-sans-v23-latin-700.eot");
   /* IE9 Compat Modes */
-  src: local(""), url("fonts/open-sans-v23-latin-700.eot?#iefix") format("embedded-opentype"), url("fonts/open-sans-v23-latin-700.woff2") format("woff2"), url("fonts/open-sans-v23-latin-700.woff") format("woff"), url("fonts/open-sans-v23-latin-700.ttf") format("truetype"), url("fonts/open-sans-v23-latin-700.svg#OpenSans") format("svg");
+  src: local(""), url("../../fonts/open-sans-v23-latin-700.eot?#iefix") format("embedded-opentype"), url("../../fonts/open-sans-v23-latin-700.woff2") format("woff2"), url("../../fonts/open-sans-v23-latin-700.woff") format("woff"), url("../../fonts/open-sans-v23-latin-700.ttf") format("truetype"), url("../../fonts/open-sans-v23-latin-700.svg#OpenSans") format("svg");
   /* Legacy iOS */
 }
 
