@@ -5,7 +5,7 @@
 
     <div class="container pb-s pt-l" >
 
-        <div class="row subpage-hero mb-xxl">
+        <!-- <div class="row subpage-hero mb-xxl">
             <div class="col-12 col-lg-6 subpage-hero__text">
                     <p class="overtitle">Dough Academy</p> 
                     <h1 class="mb-m">Blog</h1>
@@ -22,7 +22,7 @@
 
                 </picture>
             </div>
-        </div> <!--hero-->
+        </div> -->
 
 
         <?php $sticky = get_option( 'sticky_posts' );
