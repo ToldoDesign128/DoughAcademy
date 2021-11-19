@@ -13,7 +13,7 @@
                 </div>
             </div>
         </section>
-        <div class="img-background" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impasta.png');"></div>
+        <div class="img-background" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mano_che_impasta.jpg');"></div>
 
 
         <!--Bio-->
@@ -47,7 +47,7 @@
                     <a class="btn mt-m casa" href="<?php echo get_post_permalink( 108 ); ?>">Scopri i corsi</a>
                 </div>
                 <div class="col-12 col-lg-5 mb-m immagine order-first order-lg-last casa">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mani_che_impastano_pizza.png" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_mani_che_impastano_pizza.jpg" alt="">
                 </div>
             </div>
         </section>
@@ -188,19 +188,19 @@
             <div class="row mb-xxl">
                 <div class="col-lg-4 gallery__full-h mb-m">
                     <picture>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Napoletana-moderna.jpeg" alt="Dough Academy pizza napoletana moderna">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Napoletana-moderna.jpg" alt="Dough Academy pizza napoletana moderna">
                         <p class="capt">Pizza Napoletana Moderna</p>
                     </picture>    
                 </div>
                 <div class="col-lg-4 gallery__full-h mb-m">
                     <picture>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Foccaccia.jpeg" alt="Dough Academy focaccia">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Foccaccia.jpg" alt="Dough Academy focaccia">
                         <p class="capt">Focaccia</p>
                     </picture>
                 </div>
                 <div class="col-lg-4 gallery__full-h mb-m">
                     <picture>
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Biga.jpeg" alt="Dough Academy biga">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Biga.jpg" alt="Dough Academy biga">
                         <p class="capt">Biga</p>
                     </picture>
                 </div>
