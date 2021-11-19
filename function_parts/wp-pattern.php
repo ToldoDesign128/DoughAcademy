@@ -119,9 +119,9 @@
         );
         
         register_block_pattern(
-            'dough/ti_aspetto',
+            'dough/contattami',
             array(
-                'title'       => __( 'Ti aspetto per il tuo primo giorno di scuola!', 'ti_aspetto' ),
+                'title'       => __( 'Contattami', 'contattami' ),
                 
                 'description' => _x( 'Parte finale degli artcioli in cui si vuole essere contattati', 'dough' ),
                 
@@ -130,6 +130,18 @@
                 'categories'  => array('dough_academy'), 
             )
         );
-
+        
+        register_block_pattern(
+            'dough/scopri_i_corsi',
+            array(
+                'title'       => __( 'Scopri i corsi', 'scopri_i_corsi' ),
+                
+                'description' => _x( 'Parte finale degli artcioli in cui si vuole essere portare ai corsi', 'dough' ),
+                
+                'content'     => "<!-- wp:group -->\r\n<div class=\"wp-block-group\"><!-- wp:heading {\"textAlign\":\"center\",\"level\":3} -->\r\n<h3 class=\"has-text-align-center\"><strong>Professionalità, competenza e trasparenza.</strong></h3>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:spacer {\"height\":32} -->\r\n<div style=\"height:32px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\r\n<!-- /wp:spacer -->\r\n\r\n<!-- wp:heading {\"textAlign\":\"center\",\"level\":4} -->\r\n<h4 class=\"has-text-align-center\"><strong>Ti aspetto per il tuo primo giorno di scuola!</strong></h4>\r\n<!-- /wp:heading -->\r\n\r\n<!-- wp:spacer {\"height\":56} -->\r\n<div style=\"height:56px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\r\n<!-- /wp:spacer -->\r\n\r\n<!-- wp:columns -->\r\n<div class=\"wp-block-columns\"><!-- wp:column {\"width\":\"33.34%\"} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:33.34%\"></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"width\":\"33.34%\"} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:33.34%\"><!-- wp:buttons {\"contentJustification\":\"center\"} -->\r\n<div class=\"wp-block-buttons is-content-justification-center\"><!-- wp:button -->\r\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link\" href=\"#\">Scopri i corsi</a></div>\r\n<!-- /wp:button --></div>\r\n<!-- /wp:buttons --></div>\r\n<!-- /wp:column -->\r\n\r\n<!-- wp:column {\"width\":\"33.33%\"} -->\r\n<div class=\"wp-block-column\" style=\"flex-basis:33.33%\"></div>\r\n<!-- /wp:column --></div>\r\n<!-- /wp:columns -->\r\n\r\n<!-- wp:spacer -->\r\n<div style=\"height:100px\" aria-hidden=\"true\" class=\"wp-block-spacer\"></div>\r\n<!-- /wp:spacer --></div>\r\n<!-- /wp:group -->",
+                
+                'categories'  => array('dough_academy'), 
+            )
+        );
     }    
     add_action( 'init', 'XY_custom_wp_block_patterns' );
