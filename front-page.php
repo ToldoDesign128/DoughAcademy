@@ -303,7 +303,7 @@
                     <p>Iscriviti alla newsletter Dough Academy per ricevere tutti i nostri aggiornamenti in tempo reale.</p> 
                 </div>
                 <div class="col-12">
-                    <a class="btn mt-l casa" href="">Iscriviti</a>
+                    <a class="btn mt-l casa" href="<?php echo get_post_permalink( 389 ); ?>">Iscriviti</a>
                 </div>
             </div>
         </section>
