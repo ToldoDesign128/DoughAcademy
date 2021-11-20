@@ -26,7 +26,11 @@
                     <p class="p-little"><?php echo get_theme_mod("XY_contatti_indirizzo"); ?></p>
                     <p class="p-little"><?php echo get_theme_mod("XY_contatti_piva"); ?></p>
                     <p class="p-little">© Tutti i diritti riservati</p>
-                    <p class="p-little"><a class="mail" href="<?php echo get_privacy_policy_url() ?>">Privacy e Cookies policies</a></p>
+                    <!-- Iubenda Privacy e Cookies -->
+                    <p class="p-little">
+                        <a href="https://www.iubenda.com/privacy-policy/48787677" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>    
+                        <a href="https://www.iubenda.com/privacy-policy/48787677/cookie-policy" class="iubenda-white no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                    </p>
                     <!-- <p class="p-little"><a class="mail">Credits</a></p> -->
                 </div>
 
