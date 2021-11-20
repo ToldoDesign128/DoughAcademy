@@ -899,13 +899,26 @@ article a {
   border-radius: 50vh;
 }
 
+.newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr {
+  margin-top: 0;
+}
+
+.newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdpr p, .newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdpr a, .newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdprLegal p, .newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdprLegal a {
+  font-size: 0.75rem;
+  color: #534741;
+}
+
+.newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdpr .checkbox, .newsletter #mc_embed_signup form .mc-field-group#mergeRow-gdpr .content__gdprLegal .checkbox {
+  margin: 0.5rem 0 1rem;
+}
+
 .newsletter #mc_embed_signup .button {
   color: #C7B299;
   background: #534741;
   font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: 2px;
   border-radius: 100px;
   padding: 0 32px;
