@@ -698,6 +698,10 @@ footer .iubenda-embed:not(.iubenda-nostyle):hover {
   opacity: 0.7 !important;
 }
 
+.iubenda-tp-btn .iubenda-cs-preferences-link {
+  display: none !important;
+}
+
 /*----------------------------------------
     BUTTONS
 -----------------------------------------*/
