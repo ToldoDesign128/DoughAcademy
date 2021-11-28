@@ -6,8 +6,8 @@
         <section class="hero">
             <div class="row align-items-center mb-xl">
                 <div class="col-12">
-                    <p class="overtitle t-white t-center-mobile">Dough Academy</p> 
-                    <h1 class="mb-m t-center-mobile">L’Accademia degli impasti</h1>
+                    <h1 class="fake-h1 t-white t-regular t-center-mobile">Dough Academy</h1> 
+                    <p class="fake-h1 mb-m t-center-mobile">L’Accademia degli impasti</p>
                     <p class="t-white t-center-mobile subtitle">Imparare l’arte bianca con professionalità e competenza</p> 
                     <a class="btn btn-center-mobile mt-m casa" href="<?php echo get_post_permalink( 109 ); ?>">Scopri i corsi</a>
                 </div>

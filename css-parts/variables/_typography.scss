@@ -10,6 +10,16 @@ h1{
     font-weight: 600;
     letter-spacing: -1.5px; line-height: 105%;
     color: $color-secondary;
+
+    &.fake-h1{
+        font-size: 1rem;
+        font-weight: 400; 
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        @media #{$large} {
+            font-size: 1.25rem; //20px on desktop
+        }
+    }
 }
 
 h2{
@@ -70,6 +80,15 @@ p{
         }
     }
 
+    &.fake-h1{
+        font-family: $font-primary;
+        font-size: clamp(3rem, 10vw, 6rem);
+        text-transform: none;
+        font-weight: 600;
+        letter-spacing: -1.5px; line-height: 105%;
+        color: $color-secondary;
+    }
+
 }
 
 
@@ -92,7 +111,10 @@ TEXT COLOR
 TEXT WEIGHT
 --------------------------------------------------*/
 .t-bold{
-    font-weight: 700;
+    font-weight: 600;
+}
+.t-regular{
+    font-weight: 400;
 }
 
 

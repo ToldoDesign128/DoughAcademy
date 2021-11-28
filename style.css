@@ -65,6 +65,19 @@ h1 {
   color: #C7B299;
 }
 
+h1.fake-h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 992px) {
+  h1.fake-h1 {
+    font-size: 1.25rem;
+  }
+}
+
 h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: clamp(2.5rem, 8vw, 4.5rem);
@@ -137,6 +150,16 @@ p.p-little {
   }
 }
 
+p.fake-h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: clamp(3rem, 10vw, 6rem);
+  text-transform: none;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 105%;
+  color: #C7B299;
+}
+
 /*--------------------------------------------------
 TEXT COLOR
 --------------------------------------------------*/
@@ -156,7 +179,11 @@ TEXT COLOR
 TEXT WEIGHT
 --------------------------------------------------*/
 .t-bold {
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.t-regular {
+  font-weight: 400;
 }
 
 /*--------------------------------------------------
