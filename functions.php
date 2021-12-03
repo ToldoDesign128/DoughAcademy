@@ -111,6 +111,6 @@
     require dirname(__FILE__).'/function_parts/wp-pattern.php';
 
     //CPT
-    // require dirname(__FILE__).'/function_parts/cpt/CPT_corsi.php'; 
+    require dirname(__FILE__).'/function_parts/cpt/CPT_corsi.php'; 
 
 ?>

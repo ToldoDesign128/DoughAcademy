@@ -557,7 +557,7 @@ nav .menu li a:hover {
   opacity: 0.8;
 }
 
-nav .menu .current_page_parent a {
+nav .menu .current_page_item a {
   border-bottom: solid 3px #534741;
 }
 
@@ -575,7 +575,7 @@ nav.scrolled a {
   color: #C7B299;
 }
 
-nav.scrolled .current_page_parent a {
+nav.scrolled .current_page_item a {
   border-bottom: solid 3px #C7B299;
 }
 
@@ -592,6 +592,22 @@ nav.scrolled .current_page_parent a {
 }
 
 .home nav .current-menu-item a {
+  border-bottom: solid 3px #C7B299;
+}
+
+.single-post nav .current_page_parent a {
+  border-bottom: solid 3px #534741;
+}
+
+.single-post nav.scrolled .current_page_parent a {
+  border-bottom: solid 3px #C7B299;
+}
+
+.single-corsi nav .menu-item-94 a {
+  border-bottom: solid 3px #534741;
+}
+
+.single-corsi nav.scrolled .menu-item-94 a {
   border-bottom: solid 3px #C7B299;
 }
 

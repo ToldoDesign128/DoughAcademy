@@ -38,7 +38,7 @@
                 'capability_type'       =>          'post',
                 'hierarchycal'          =>          false,
                 'taxonomies'            =>          array(''),
-                'show_in_rest'          =>          false, //gutemberg disattivato
+                'show_in_rest'          =>          true, //gutemberg attivato
                 'supports'              =>          array('title', 'author', 'editor', 'thumbnail', 'excerpt',      'revisions', 'custom-fields', 'comments', 'page-attributes') //campi supportati
             ), flush_rewrite_rules() /*fine delle opzioni*/
         );
@@ -115,13 +115,12 @@
                             <p class="overtitle">Dough Academy</p> 
                             <h1 class="mb-m">Pizza Class</h1>
                             <p>
-                                P here. 
+                                <span style="color:red;">P here.</span> 
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu viverra diam, nec maximus est. Vestibulum condimentum turpis id ipsum volutpat, non gravida leo consequat. Sed mi libero, rutrum in maximus aliquet, sollicitudin nec nunc. Vestibulum vulputate diam vitae lobortis tempus.
                             </p> 
                     </div>
                     <div class="col-12 col-lg-6 subpage-hero__img d-sm-none d-lg-flex">
-                        <picture style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/ph(2).jpg')">
-
+                        <picture style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/Dough_Academy_Savoia-Pizza-Class.jpg')">
                         </picture>
                     </div>
                 </div>
@@ -137,16 +136,18 @@
                         //get alt text of thumbnail
                         $thumbnail_id  = get_post_thumbnail_id( $post->ID ); $thumbnail_alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );
                         ?>
-                            <div class="col-12 col-lg-6 mb-xxl">
-                                <article>
-                                    <a href="<?php the_permalink(); ?>"><picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture></a>
-                                    <a href="<?php the_permalink(); ?>"><h2 class="article__title mb-s"><?php the_title(); ?></h2></a>
-                                    <div class="no-flex">
+                            <a href="<?php the_permalink(); ?>" class="col-12 col-lg-6 mb-xxl no-dec">
+                                <article class="card casa">
+                                    <div class="flex-top">
+                                        <picture class="article__picture mb-m"><?php the_post_thumbnail(); ?></picture>
+                                        <h2 class="article__title mb-s"><?php the_title(); ?></h2>
+                                    </div>
+                                    <div class="flex-bottom">
                                         <p class="article__excerpt p-little mb-m"><?php echo get_the_excerpt(); ?></p>
-                                        <a href="<?php the_permalink(); ?>" class="link article__link">Leggi</a>
+                                        <p class="link article__link">Scopri il corso</p>
                                     </div>
                                 </article>
-                            </div>
+                            </a>
                         <?php
                     }
                     wp_reset_postdata();
