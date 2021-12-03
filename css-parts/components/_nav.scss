@@ -4,7 +4,7 @@ nav{
     background-color: transparent;
     position: fixed; top:0; z-index:999;
     padding-top: 0.5rem;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out; 
 
 
 
@@ -146,6 +146,7 @@ nav{
                 border-bottom: solid 3px $color-primary;      
             }
         }
+         
         &.scrolled{
             .menu-item-314{
                 a{
