@@ -141,13 +141,13 @@ nav{
 //Single corsi
 .single-corsi{
     nav{
-        .menu-item-94{ 
+        .menu-item-68{  //❌da cambiare id sul sito online
             a{
                 border-bottom: solid 3px $color-primary;      
             }
         }
         &.scrolled{
-            .menu-item-94{
+            .menu-item-68{
                 a{
                     border-bottom: solid 3px $color-secondary;
                 }
